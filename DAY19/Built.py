@@ -14,3 +14,7 @@ from functools import reduce
 numbers = [10,30,44,87,96,56,78,100]
 result = reduce(lambda a,b : a+b,num)
 print(result)       # 437
+
+names = ["sai","Ram", "is" , "superman"]
+word = reduce(lambda a,b: a+" "+" " +b, names)
+print(word)
