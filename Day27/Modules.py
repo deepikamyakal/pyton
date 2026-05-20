@@ -12,3 +12,10 @@ print(name)
 
 obj = Sample()
 obj.demo()
+
+
+# why modules ?? 
+# organise code 
+# easy maintainence 
+# resuablity
+# individual development 
